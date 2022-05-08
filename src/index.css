@@ -4,6 +4,10 @@ body {
   font-family: 'SF UI Display', sans-serif;
 }
 
+body.app-indicate-loading {
+  cursor: wait;
+}
+
 @font-face {
   font-family: 'SF UI Display';
   font-style: normal;
