@@ -9,6 +9,7 @@ export default ({ onPost }) => {
       return;
     }
     onPost(text);
+    inputRef.current.value = "";
   };
   return (
     <div className="NewNoteField">
